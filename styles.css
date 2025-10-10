@@ -1,22 +1,8 @@
-/* purgecss start ignore */
-@tailwind base;
-@tailwind components;
-/* purgecss end ignore */
-
-@tailwind utilities;
-
-#container {
-  margin: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+body {
+  background-color: #f0f0f0;
+  font-family: system-ui;
 }
 
 footer {
-  margin-top: 20px;
-  font-size: 0.5em;
-}
-
-h1 {
-  font-size: 3em;
-  font-weight: bold;
+  font-size: 0.5rem;
 }
