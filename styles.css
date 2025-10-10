@@ -20,6 +20,15 @@ footer {
   padding: 20px;
 }
 
+p, ul {
+  margin: 2em 1em;
+}
+
+a {
+  color: #cbff3d;
+  font-weight: bold;
+}
+
 h1 {
   margin: 20px;
 }
