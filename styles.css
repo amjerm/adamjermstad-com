@@ -11,8 +11,10 @@ header, main, h1 {
 
 header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  background-color: #134b73;
+  background-image: linear-gradient(to left, transparent, #134b73), url("assets/jwst.png");
+  background-position: center;
 }
 
 footer {
@@ -44,4 +46,16 @@ h1 {
   background-color: white;
   padding: 5px;
   color: black;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
 }
