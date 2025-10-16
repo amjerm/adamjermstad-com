@@ -5,38 +5,38 @@ body {
   margin: 0px;
 }
 
-header, main, h1 {
-  padding: 20px;
-}
-
 header {
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-image: linear-gradient(to left, transparent, #134b73), url("assets/jwst.png");
   background-position: center;
+  background-size: cover;
+}
+
+main, footer {
+  padding: 40px;
 }
 
 footer {
   font-size: 0.5rem;
-  padding: 20px;
-}
-
-p, ul {
-  margin: 2em 1em;
-}
-
-a {
-  color: #cbff3d;
-  font-weight: bold;
 }
 
 h1 {
   margin: 20px;
 }
 
+a {
+  color: #00ff22;
+}
+
 #main-avatar {
   border-radius: 50%;
+}
+
+#social-icons {
+  margin: 20px 0px;
 }
 
 .zeeny {
